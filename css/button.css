@@ -1,0 +1,24 @@
+    .btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    border: #ffd000;
+
+    width: 182px;
+    height: 50px; 
+
+    color: rgb(255, 255, 255);
+    background: #584c16;
+    }
+    .parent{
+    display: flex;
+    position: absolute;
+    margin: 0% auto;
+    text-align: center;
+    top: 450px;
+    left: 35%;
+    gap: 30px; ;
+    }

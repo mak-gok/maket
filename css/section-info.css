@@ -1,0 +1,33 @@
+.section-info{
+    background: #282828;
+    padding: 100px;
+}
+.container {
+    border: 3px solid #c4c4c4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    padding-left: 187px;
+    padding-right: 187px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.container-text{
+    text-align: center;
+}
+.container-img{
+    width: 160px;
+    height: 160px;
+
+}
+.container-title {
+    font-size: 36px;
+    text-align: center;
+
+}
+hr{
+    width: 160px;
+
+}

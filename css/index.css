@@ -1,0 +1,57 @@
+h1{
+    font-size: 40px;
+}
+.title{
+    font-size: 60px;
+    color: blueviolet;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    padding: 20px 10px 30px 10px;
+    margin-bottom: 60px;
+}
+.logo {
+    width: 60px;
+    height: 40px;
+}
+.header-link{
+    font-size: 24px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+.section-info{
+    background: #282828;
+    padding: 100px;
+}
+.wrapper-container {
+    border: 3px solid #c4c4c4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    padding-left: 187px;
+    padding-right: 187px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.container-title {
+    font-size: 36px;
+    text-align: center;
+
+}
+hr{
+    width: 160px;
+    
+}
+.container-text{
+    text-align: center;
+}
+.container-img{
+    width: 160px;
+    height: 160px;
+    
+}
