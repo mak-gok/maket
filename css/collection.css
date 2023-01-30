@@ -1,3 +1,31 @@
-.content-img{
-    
+.collection {
+padding-bottom: 80px;
+padding-top: 80px;
+background: #E6E3C4;
+justify-content: center;
+display: flex;
+}
+.collection__content {
+display: flex;
+gap: 125px;
+border: 1px solid #998431;
+padding-bottom: 60px;
+padding-top: 60px; 
+width: 1110px;
+}
+.content-text {
+
+}
+.content-img {
+display: flex;
+flex-direction: column;
+width: 540px;
+gap: 30px;
+}
+.content-img__bottom-img {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+
 }
