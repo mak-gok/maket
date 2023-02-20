@@ -36,6 +36,12 @@
     border-right: none;
    
 }
+.header-bottom__link:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-size: 16px;
+}
 .header-adress{
     color: aliceblue;
 }
