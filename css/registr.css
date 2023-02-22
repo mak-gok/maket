@@ -38,10 +38,22 @@ color: #ffffff;
     
 }
 .registr__input {
+   width: 255px;
+   height: 20px;
+   border: 1px solid #ffffff;
+}
+.btn__registr {
+    width: 600px;
+    height: 50px;
+    background-color: chocolate;
+}
+.registr__btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-size: 16px;
+    background-color: rgb(255, 106, 0);
+}
+.registr__input-adres{
     height: 30px;
     width: 540px;
-}
-.btn {
-}
-.registr__btn {
 }
