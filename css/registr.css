@@ -35,17 +35,27 @@ color: #ffffff;
 
 }
 .registr__group-input {
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+    gap: 30px;
     
 }
 .registr__input {
-   width: 255px;
-   height: 20px;
-   border: 1px solid #ffffff;
+    width: 100%;
+   height: 30px;
+   background: none;
+   font-size: 13px;
+   color: #ffffff;
+   border: none;
+   border-bottom: 1px solid #ffffff;
+padding: 0px;
 }
 .btn__registr {
-    width: 600px;
+    width: 100%;
     height: 50px;
     background-color: chocolate;
+
 }
 .registr__btn:hover {
     transform: scale(1.1);
@@ -55,5 +65,25 @@ color: #ffffff;
 }
 .registr__input-adres{
     height: 30px;
-    width: 540px;
+    width: 100%;
+    background: none;
+    font-size: 13px;
+    
+
+}
+.registr__input-adres:focus{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+.registr__input::placeholder,.registr__input-adres::placeholder{
+    color: #ffffff;
+
+}
+.registr__container{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+max-width: 550px;
+width: 550px;
 }
