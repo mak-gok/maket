@@ -14,6 +14,7 @@ border-bottom: 1px solid #998431;
 padding-bottom: 60px;
 padding-top: 60px; 
 width: 1110px;
+flex-wrap: wrap;
 }
 .content-text{
     display: flex;

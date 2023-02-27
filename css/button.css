@@ -19,7 +19,7 @@
     margin: 0% auto;
     text-align: center;
     top: 450px;
-    left: 35%;
+    left: calc(50% - 187px);
     gap: 30px; ;
     }
     .active-btn:hover{
