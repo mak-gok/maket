@@ -1,0 +1,82 @@
+.header-content{
+    display: none;
+
+}
+#menu__toggle{
+    opacity: 0;
+
+}
+.menu-btn{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 17px;
+    left: 17px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+/* cam gamburger */
+.menu-btn > span,
+.menu-btn > span::after,
+.menu-btn > span::before{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    background-color: blueviolet;
+}
+.menu-btn > span::before{
+    content:"" ;
+    top: -8px;
+}
+.menu-btn > span::after{
+    content:"" ;
+    top: 8px;
+}
+#menu__toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+#menu__toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    background-color: #fff;
+}
+#menu__toggle:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+    background-color: #fff;
+}
+#menu__toggle:checked ~ .menu-box {
+    visibility: visible;
+    left: 0;
+}
+ /* анимация развертки */
+ .menu-btn > span,
+ .menu-btn > span::after,
+ .menu-btn > span::before,
+ .menu-box{
+    transition-duration: 0.5s;
+ }
+ .menu-box{
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 375px;
+    height: 100%;
+    margin: 0;
+    padding: 24px 17px;
+    background-color: rgb(242, 0, 255);
+ }
+ #menu__toggle:checked ~ .menu-btn{
+    left: 339px;
+ }
+ 
+
