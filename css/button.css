@@ -33,3 +33,8 @@
         width: 254px;
         height: 50px;
     }
+    @media (max-width:1024px) {
+        .parent{display: none;}
+        
+    }
+    

@@ -31,3 +31,6 @@ hr{
     width: 160px;
 
 }
+@media (max-width:768px) {
+    .section-info{display: none;}
+}

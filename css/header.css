@@ -5,6 +5,7 @@
     justify-content: center;
     background: none;
     width: 100%;
+    
 }
 .header-content {
     display: flex;
@@ -45,4 +46,6 @@
 .header-adress{
     color: aliceblue;
 }
-
+@media (max-width:1024px) {
+    .header {display: none;}
+}

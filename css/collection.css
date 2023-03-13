@@ -13,14 +13,14 @@ border-top: 1px solid #998431;
 border-bottom: 1px solid #998431; 
 padding-bottom: 60px;
 padding-top: 60px; 
-width: 1110px;
+
 flex-wrap: wrap;
 }
 .content-text{
     display: flex;
     flex-direction: column;
     gap: 30px;
-
+width: 100%;
 }
 td{
     padding: 10px 0 15px 30px;
@@ -72,13 +72,18 @@ color: #282828;
 .content-img {
 display: flex;
 flex-direction: column;
-width: 540px;
+
 gap: 30px;
+
 }
 .content-img__bottom-img {
     display: flex;
     flex-direction: row;
     gap: 30px;
     width: 100%;
-
+flex-wrap: wrap;
+}
+.content-img__main{
+    width: 100%;
+    
 }
