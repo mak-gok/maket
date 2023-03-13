@@ -5,6 +5,7 @@
 @import "./index.css";
 @import "./collection.css";
 @import "./registr.css";
+@import "./menu-burger.css";
 .wrapper {
     width: 100%;
     height: 100%;
