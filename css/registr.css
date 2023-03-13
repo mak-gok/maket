@@ -3,6 +3,7 @@ background-color: #282828;
 padding: 90px 40px 120px 40px;
 justify-content: center ;
 display: flex;
+
 }
 .registr__content {
     display: flex;
@@ -15,6 +16,8 @@ display: flex;
     padding-bottom: 80px;
     width: 100%;
     position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .registr__img{
     position: absolute;

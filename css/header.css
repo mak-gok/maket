@@ -47,5 +47,5 @@
     color: aliceblue;
 }
 @media (max-width:1024px) {
-    .header {display: none;}
+    .header-content {display: none;}
 }
